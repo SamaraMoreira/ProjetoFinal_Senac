@@ -1,0 +1,68 @@
+@media  (min-width: 1200px) {
+.foto{
+    margin-top: 5%;
+    width: 427.17px;
+    height: 485.9px;
+}
+.item{
+    font-size: 24px;   
+    }
+.menu_gd {
+    gap: 100px;
+}
+.main{
+    padding-top: 5%;
+}
+.apresentacao{
+    font-size: 24px;
+    width: 100%;
+}
+h3{
+    margin-left: 20%;
+    font-size: 24px; 
+    }
+.conteudo{
+    width: 80%;
+    display: flex;
+    flex-direction: row-reverse ;
+}
+.linkredes{
+    width: 50%;
+}
+.redes{
+    padding: 0;
+    margin-left: 20%;
+}
+.conteudo_footer{
+    width: 80%;
+}
+.p_linha{
+    position: absolute;
+    margin-left: 50%;
+    display: inline;
+    margin-top: 50px;
+    }
+.pfooter{
+    display: inline;
+}
+footer{
+    margin-top: 100px;
+    height: 150px;   
+    }
+.empresas{
+    padding: 30px;
+    margin-left: 5%;
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+}
+.form{
+    width: 512px;
+}
+.teste{
+    margin-right: 10%;
+    margin-top: 0;
+}
+.contato{
+margin-bottom: 2%;
+}}

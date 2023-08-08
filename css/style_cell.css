@@ -1,0 +1,77 @@
+@media (max-width:759px ) {
+.foto{
+    width: 320px;
+    height: 362.14px;
+    margin-top: 70px;
+}
+.apresentacao{
+    font-size: 20px;
+}
+h3{
+    margin-left: 10%;
+    font-size: 20px;
+}
+.conteudo{
+    width: 320px;
+}
+.linkredes{
+    width: 80%;
+}
+.conteudo_footer{
+    width: 75%;
+}
+.pfooter{
+    text-align: center;
+}
+.pfooter:nth-child(1){
+    padding: 40px 0px 20px 0px;
+}
+.pfooter:nth-child(2){
+    margin-left: 10%;
+    padding: 0px 0px 50px 0px;
+}
+footer{
+    height: 360px;
+    position: block;
+}
+.contado{
+    width: 100%;
+    font-size: 16px;
+}
+/* Menu celular*/
+.menu_box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    padding: 32px 0;
+    background-color: #6a6a6aee;
+} 
+.menu_item{
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    color: #FFCAF0;
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.button_menu{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    right: 8px;
+    top: 8px;
+}
+.invisible{
+    display: none;
+}
+/* Menu celular*/
+.form{
+    width: 320px;
+}
+.teste{
+    margin-top: 10%; 
+    margin-bottom:10% ;
+}}

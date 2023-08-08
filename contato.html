@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/icons.png" type="image/x-icon">
+
+</head>
+<body>
+    <header>
+        <nav>
+            <div>
+                <ul class="menu_gd">
+                    <li><a class="item" href="index.html">Home</a></li>
+                    <li><a class="item" href="sobremim.html">Sobre mim</a></li>
+                    <li><a class="item" href="habilidades.html">Habilidades</a></li>
+                    <li><a class= "item" href="contato.html"> Contato </a></li>
+                </ul>
+            </div>
+            <div class="menu_hb invisible">
+                <ul class="menu_box">
+                    <li><a class="menu_item" href="index.html">Home</a></li>
+                    <li><a class="menu_item" href="sobremim.html">Sobre mim</a></li>
+                    <li><a class="menu_item" href="habilidades.html">Habilidades</a></li>
+                    <li><a class= "menu_item" href="contato.html"> Contato </a></li>
+                </ul>
+            </div>
+            <button class="button_menu">
+                <img src="img/menu.png" alt="menu celular">
+            </button>
+        </nav>
+    </header>
+    <div class="main">
+        <div class="conteudo">
+            <img class="foto" src="img/Imagem.png" alt=" foto pessoal"> 
+            <div class="teste">
+                <form class="form" action="https://formsubmit.co/samaramoreira000@email.com" method="POST">
+                    <h3 class="contato"> Entre em contato comigo: </h3>
+                    <label for="nome"> Nome: </label>
+                    <input type="text" name="name" id= "nome" placeholder="Preencha seu nome" required>
+        
+                    <label for="email"> Email: </label>
+                    <input type="email" name="email"id='email' placeholder="seuemail@email.com.br" required>
+        
+                    <label for="textarea"> Mensagem: </label>
+                    <textarea name="message" id="message" cols="30" rows="10" placeholder="Sua mensagem..."></textarea>
+                    <input type="hidden" name="_next" value="https://yourdomain.co/email.html">
+                    <button type="submit">Enviar</button>
+               </form>
+            </div>          
+        </div>
+    </div>
+    </main>
+
+
+    <footer>
+        <div class="conteudo_footer">
+            <div class="p_linha">
+                <p class="pfooter">Desenvolvido por Samara Moreira no </p>
+                <p class="pfooter"> programa Alura Include.</p>    
+            </div>
+            <div class="empresas">
+                <a class="alura"  href="https://www.alura.com.br/"> <img src="img/alura.png" alt="Alura Include"></a>    
+                <a class="senac"  href="https://www.sp.senac.br/"> <img src="img/senac.png" alt=" Senac SP"></a>     
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="js/menu.js"> </script>
+</html>

@@ -1,0 +1,52 @@
+@media (min-width:760px ) and (max-width: 1200px) { 
+.foto{
+    width: 427.17px;
+    height: 485.9px;
+    margin-top: 70px;
+    margin-left: 20%;
+}
+.apresentacao{
+    font-size: 24px;
+    height: 100%;   
+}
+h3{
+    margin-left: 10%;
+    font-size: 24px;   
+}
+.conteudo{
+    width: 80%;
+    }
+.linkredes{
+    width: 60%;
+    }
+.redes{
+    margin-left: 20%;
+}
+.conteudo_footer{
+    width: 40%;
+}
+.pfooter:nth-child(1){
+    padding: 40px 0px 20px 0px;
+    }
+.pfooter:nth-child(2){
+    margin-left: 10%;
+    padding: 0px 0px 50px 0px;
+    }
+footer{
+    height: 360px;
+    }
+.senac{
+    margin: auto;
+    }
+.item{
+    font-size: 20px;
+}
+.menu_gd {
+    gap: 40px;
+}
+.form{
+    width: 512px;
+}
+.teste{
+    margin: 10% 15% 
+}}

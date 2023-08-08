@@ -1,0 +1,147 @@
+@import url(style_cell.css);
+@import url(style_tablet.css);
+@import url(style_pc.css);
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Krona+One&family=Montserrat&display=swap');
+
+/* Esse é o CSS principal, todas as mudanças que eram iguais nos css responsivos foram colocados no princiapl, a fim de diominuir linhas desnecessárias*/
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #1E1E1E;
+}
+.linkredes:hover{
+    background-color: #FFCAF0;
+}
+.item{
+    text-decoration: none;
+    color: #FFCAF0;
+    font-family: 'Montserrat', sans-serif;
+    display: contents;
+}
+h1 {
+    font-family: 'Krona One', sans-serif;
+    font-size: 36px;
+    color: #FFCAF0;
+    padding: 10px 0px;
+}
+h3{
+    margin-left: 10%;
+    font-family: 'Krona One', sans-serif;
+    font-size: 20px;
+    color: #F6F6F6;
+}
+.menu_gd {
+    list-style: none;
+    padding: 40px 0 0 0; 
+    display: flex; 
+    justify-content: center; 
+}
+.apresentacao{
+    padding: 10px 0px 45px 0px;
+    font-family: 'Montserrat', sans-serif;
+    color: #F6F6F6;
+}
+.linkredes{
+    text-decoration: none;
+    color: #F6F6F6;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    border: 2px solid #FFCAF0;
+    border-radius: 12px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    width: 80%;
+}
+.linkredes:nth-child(1){
+    margin: 40px 0px 0px 0px;
+}
+.linkredes:nth-child(2){
+    margin: 30px 0px ;
+}
+.conteudo_footer{
+    margin: 0 auto;
+}
+.pfooter{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+footer{
+    width: 100%;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #FFCAF0;
+}
+.contato{
+    font-family: 'Krona One', sans-serif;
+    margin-bottom: 5%;
+}    
+.form button{
+    height: 40px;
+    color: black;
+    border: none;
+    border-radius: 12px;
+}
+.form input , .form textarea{
+    background-color: transparent;
+    border: 2px solid #FFCAF0;
+    border-radius: 12px;
+    padding: 16px;
+    margin-bottom: 24px;
+}
+.form input{
+    height: 40px;
+}
+.form input:focus , .form textarea:focus{
+    outline: 2px solid #FFCAF0;
+}
+.form label{
+    font-family: 'Krona One', sans-serif;
+    color: #F6F6F6;
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 10%;
+}
+.main{
+    width: 100%;
+}
+.redes{
+    display: flex;
+    flex-direction: column;
+}
+.conteudo{
+    margin: 0 auto;
+}
+.senac{
+    float: right;
+}
+
+@media (max-width:759px ) {
+.menu_gd {
+    display: none;
+}
+}
+@media (min-width:760px ) {
+.button_menu{
+    display: none;
+}
+.menu_hb{
+    display: none;
+}           
+} 
+@media  (max-width: 1199px) {
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}}
+
+
